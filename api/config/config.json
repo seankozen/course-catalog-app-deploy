@@ -1,13 +1,10 @@
 {
   "development": {
-    "use_env_variable": "DATABASE_URL",
-    "dialect": "postgres",
-    "dialectOptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
-    }
+    "database": "school_course__development",
+    "user": "sgkoz",
+    "password": "Datamasu1!",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
   },
   "test": {
     "database": "school_course__test",
@@ -18,10 +15,10 @@
     "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
     "dialectOptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
-    }
-  }
+       "ssl": {
+         "require": true,
+         "rejectUnauthorized": false
+       }
+     }
+   }
 }
