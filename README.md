@@ -1,4 +1,4 @@
-# FSJS-techdegree-project-10-Final
+# Course Catalog Full Stack JS App
  **Full Stack React App**
 
 ## Description:
