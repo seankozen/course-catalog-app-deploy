@@ -1,9 +1,6 @@
 {
   "development": {
-    "database": "school_course__development",
-    "user": "sgkoz",
-    "password": "Datamasu1!",
-    "host": "127.0.0.1",
+    "database": "postgres://knatxzveyqrfdn:f25e19658b4a9b571bc3a8ce5b967baea5ffe1d5fde7c66905977b7bc9c8a8c9@ec2-44-192-245-97.compute-1.amazonaws.com:5432/d9b3bvb6n26rd8",
     "dialect": "postgres"
   },
   "test": {
