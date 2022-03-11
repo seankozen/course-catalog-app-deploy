@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd api && npm install && npm start",
-    "heroku-postbuild": "cd client && npm install && npm run build",
-    "migrate": "sequelize db:migrate"
+    "migrate": "sequelize db:migrate",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+    
 
   },
   "engines": {
@@ -17,7 +18,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sequelize": "^6.17.0",
-    "sequelize-cli": "^6.4.1"
+
   }
 }
