@@ -53,9 +53,6 @@ function App() {
           <Route path = "/notfound" component = {NotFound} />
           <Route path = "/forbidden" component = {Forbidden} />
           <Route path = "/error" component = {UnhandledError} />
-
-          <Route path = "/*" ></Route>
-
           <Route component = {NotFound} /> 
         </Switch>
       </div>
