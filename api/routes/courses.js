@@ -6,6 +6,8 @@ const { User, Course } = require('../models');	//Require User and Course Models
 const { authenticateUser } = require('../middleware/auth-user'); //Require authentication middleware
 const { asyncHandler } = require('../middleware/async-handler'); //Require async middleware
 
+var path = require('path');
+
 // Get all courses and the users associated with them 
 router.get("/", asyncHandler( async (req, res) => {
 	const courses = await Course.findAll({
