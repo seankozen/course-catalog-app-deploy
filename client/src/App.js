@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as 
+  HashRouter as 
   Router,
   Route,
   Switch,
