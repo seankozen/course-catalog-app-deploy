@@ -7,10 +7,6 @@ import { Provider } from './Context';
 import './styles/reset.css';
 import './styles/global.css';
 
-//import reportWebVitals from './reportWebVitals';
-//import './index.css';
-
-
 ReactDOM.render(
   <Provider>
     <App />
